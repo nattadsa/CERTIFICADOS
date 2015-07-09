@@ -21,8 +21,8 @@
             <h2>Sistema de certificados - GUAYANALUG</h2>
 
             <form method="post" action="certificado.php">
-                <label for="login">Nombre de Usuario: <span class="required">*</span></label>
-                <input type="text" id="login" name="login" placeholder="Nombre de Login" required autofocus autocomplete='off' />
+                <label for="cedula">Cedula: <span class="required">*</span></label>
+                <input type="text" id="cedula" name="cedula" pattern="[0-9]+" placeholder="cedula de participante ejem: 12345678" required autofocus autocomplete='off' />
                           
                 <input type="submit" value="Crear" id="submit-button" />
                 <p id="req-field-desc"><span class="required">*</span> Todos los campos son requeridos.</p>
