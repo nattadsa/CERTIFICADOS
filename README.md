@@ -12,9 +12,9 @@ apache2, php5, mysql-server, fpdf 1.7
 
 La estructura de la base de datos son:
 
-a. db_ven01 (base de datos)
-b. nacional (tabla)
-c. primer_nombre, primer_apellido, cedula (atributos)
+a. db_ven01 (base de datos)   
+b. nacional (tabla)   
+c. primer_nombre, primer_apellido, cedula (atributos)   
 
 
 4.- **SERVIDOR**
