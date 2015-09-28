@@ -6,8 +6,8 @@ require ('config.php');
 
 $cedula= $_POST['cedula'];
 $strConsulta = "SELECT primer_nombre, primer_apellido from nacional where cedula='$cedula'";
-$cedula = mysql_query($strConsulta);
-$row = mysql_fetch_array($cedula);
+$cedula = mysqli_query($conexion,$strConsulta);
+$row = mysqli_fetch_array($cedula);
 
 //Propiedades
 //$cedula = $_POST['cedula'];
