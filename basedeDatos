@@ -1,0 +1,12 @@
+CREATE DATABASE db_ven01;
+USE db_ven01;
+CREATE TABLE nacional(
+   idNacional INT NOT NULL AUTO_INCREMENT,
+   primer_nombre VARCHAR(100) NOT NULL,
+   primer_apellido VARCHAR(40) NOT NULL,
+   cedula VARCHAR(40) NOT NULL,
+   PRIMARY KEY ( idNacional )
+);
+
+insert into nacional (primer_nombre,primer_apellido,cedula)
+values("NombreParticipante","ApellidoParticipante","12345678");
